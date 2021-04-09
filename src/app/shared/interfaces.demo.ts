@@ -24,14 +24,17 @@ export class Demo{
       return params+" Hello"
      }
 
+     function f2(one:string,two:string) {
 
+      return one+two;
+     }
 
      function f3(one:string,...multi:number[]) {
 
      }
 
      //let fun:FuncationlInterface = name;
-     //let f:FuncationlInterface = f2;
+     let f:FuncationlInterface = f2;
 
      //fun("HI")
      f("Hello","Hi")
