@@ -7,6 +7,7 @@ import { ActionReducerMap } from '@ngrx/store';
 export interface AppState{
     shoppingList:fromShoppingList.State
     auth:fromAuth.State
+    type:string
 }
 
 export const appReducer:ActionReducerMap<any>={
